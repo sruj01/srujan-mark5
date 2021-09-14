@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+}
+:root{
+  --primary-color: #3CC3A1;
+  --dark-gray: #4B5563;
+  --off-white: #F3F4F6;
+}
+
+hr{
+  margin: 2rem 0rem;
+}
+.container{
+padding: 0rem 1rem;
+}
+.container-center{
+  max-width: 750px;
+  margin: auto;
+  text-align: center;
+}
+
+.link{
+padding: 0.3rem 0.7rem;  /**The top and bottom padding dosen't reflect in webpage**/
+text-decoration: none;
+color: white;
+font-size: 20px;
+}
+
+.primary-link{
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 1rem;
+}
+
+.secondary-link{
+  color: var(--primary-color);
+  border-radius: 1rem;
+  border: solid 2px var(--primary-color);
+}
+
+.list-non-bullet{
+  list-style: none;
+}
+.inline-list{
+  display: inline;
+  padding: 0 1rem;
+}
+
+.navigation{
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 1rem;
+  border-bottom-left-radius: 1rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+/**.nav-container{
+  padding: 1rem 1rem;
+}**/
+
+.nav-brand{
+font-weight: lighter;
+text-align: left;
+font-size: 25px;
+}
+
+.link-align{
+  text-align: right;
+}
+
+.link-active{
+  font-weight: bold;
+}
+
+.hero{
+  padding: 2rem;
+}
+.hero-img{
+  max-width: 500px;
+  margin: auto;
+  display: block;
+}
+.hero-heading{
+padding-top: 1rem;
+color: var(--dark-gray);
+text-align: center;
+}
+
+.hero-subheading{
+  color: var(--dark-gray);
+  text-align: center;
+}
+
+.span-heading{
+  color: var(--primary-color);
+}
+
+.section{
+   text-align: center;
+   padding: 2rem;
+   margin-left: 0.1rem;
+   margin-right: 0.1rem;
+}
+.off-white{
+  background-color: var(--off-white);
+  border-radius: 1rem;
+}
+
+.font-color{
+  color: var(--dark-gray);
+}
+
+.theme-color{
+  color: var(--primary-color);
+}
+
+.footer{
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.footer-heading{
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 17px;
+}
+
+
+.footer-link{
+  color: white;
+  text-decoration: none;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  font-size: 19px;
+}
+
+.footer-link-align{
+  text-align: center;
+}
+
+.footer ul{
+  padding-inline-start: 0px;
+}

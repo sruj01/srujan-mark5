@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>component library</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Srujan's component library</h1>
+    <p>I'm attending neogcamp and I want to make a library which would make all my projects look good and consistent</p>
+
+    <hr>
+
+     <h2>@typography</h2>
+     <h1 class="">This is the biggest heading</h1>
+     <h2>this is the second biggest heading</h2>
+     <p>Let me show you the normal text. this is free flowing and will wrap at the end like a paragraph</p>
+     <p>This paragraph will have a <strong>bold</strong> text</p>
+     <small>This is relatively smaller text</small>
+
+     <hr>
+
+     <h2>@container</h2>
+
+     <h3>fluid container</h3>
+     <div class="container container-fluid">This is a fluid container and will go till the end of the page
+     </div>
+
+     <h3>center container</h3>
+     <div class="container container-center">This is a centered container and will go till specified width
+     </div>
+
+    <hr>
+
+     <h2>@links</h2>
+     <a class="link primary-link"href="/">Primary link</a>
+     <a class="link secondary-link" style="color: var(--primary-color)" href="/">Secondary link</a>
+
+     <hr>
+
+     <h2>@Lists</h2>
+     <h3>unordered list</h3>
+     <p>This list will not have the bullet</p>
+     <ul class="list-non-bullet">
+       <li>item one</li>
+       <li>item two</li>
+       <li>item three</li>
+     </ul>
+<h3>unordered inline list</h3>
+<ul >
+  <li class="inline-list">inline itemOne</li>
+  <li class="inline-list">inline itemTwo</li>
+  <li class="inline-list">inline itemTHree</li>
+</ul>
+
+<h3>reverse ordered list</h3>
+<ol reversed>
+  <li>milk</li>
+  <li>eggs</li>
+  <li>bread</li>
+</ol>
+
+<hr>
+
+<h2>@nav</h2>
+<nav class="navigation ">
+<div class="nav-brand">IamBrand</div>
+<ul class="link-align">
+  <li class="inline-list">
+    <a class="link link-active" href="/">home</a>
+  </li>
+  <li class="inline-list">
+    <a class="link" href="/">products</a>
+  </li>
+  <li class="inline-list">
+    <a class="link" href="/">about</a>
+  </li>
+</ul>
+</nav>
+
+<hr>
+
+<h2>@header</h2>
+
+<header class="hero">
+
+  <img class="hero-img" src="images/hero.svg" alt="image not available">
+  <h1 class="hero-heading">Hello! I'm SrujanAshok, I build <span class="span-heading">Responsive WebApps</span></h1>
+
+</header>
+
+<hr>
+
+<h2>@section</h2>
+<div class="container container-center">
+  <section class="section">
+    <h3>white section</h3>
+    <p>this will have white background</p>
+  </section>
+
+  <section class="section off-white">
+    <h3>off white section</h3>
+    <p>this will have gray background</p>
+  </section>
+</div>
+
+
+<hr>
+
+<h2>@footer</h2>
+<footer class="footer">
+  <div class="footer-heading" >small heading inside footer</div>
+  <ul class="footer-link-align">
+    <li class="inline-list">
+      <a class="footer-link" href="#">socialOne</a>
+    </li>
+    <li class="inline-list">
+      <a class="footer-link" href="#">socialTwo</a>
+    </li>
+    <li class="inline-list">
+      <a class="footer-link" href="#">socialthree</a>
+    </li>
+  </ul>
+</footer>
+  </body>
+</html>
