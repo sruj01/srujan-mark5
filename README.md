@@ -1,1 +1,1 @@
-Added a blog listing page to website with seperate sites for each blog
+Added a blog listing page to portfolio website with seperate sites for each blog
